@@ -42,7 +42,7 @@
     <input type="radio" name="gender" value="Male"> Male
     <input type="radio" name="gender" value="Female"> Female
     <br>
-    city
+    city :
     <input type="text" name="city" >
     <br>
     <label> Select your country</label>

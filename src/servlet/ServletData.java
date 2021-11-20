@@ -30,6 +30,7 @@ public class ServletData extends HttpServlet {
         System.out.println(city);
         String country = request.getParameter("country");
         System.out.println(country);
+        System.out.println("visible");
 
         DbConnection db = new DbConnection();
         db.insertRecord(firstname,lastname,gender,city,country);

@@ -28,7 +28,6 @@ public class DataFilter implements Filter {
             active = false;
         else
             active = true;
-        //String erpg = "eroor.jsp";
 
         if (firstname == null || "".equals(firstname)
                 || lastname == null || "".equals(lastname)
